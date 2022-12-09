@@ -50,7 +50,7 @@ De esta manera con solo ver se puede saber cual elemento esta dentro de cual y s
 
 Cada etqueta tiene propiedades que se pueden asignar de la siguiente forma
 
-<tag propiedad="lo que quieres poner">...</tag>
+`<tag propiedad="lo que quieres poner">...</tag>`
 
 Cada etiqueta tiene propiedades unicas que veremos mas adelante.
 
