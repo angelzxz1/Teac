@@ -25,11 +25,11 @@ En este ejemplo se puede ver que esta dentro de que, pero cuando hay muchos elem
 `<tag><tag>...</tag><tag><tag><tag>...</tag><tag>...</tag></tag></tag></tag>`
 
 Para poder tener una mejor representacion visual se indentan las etiquetas, indentar significa que los elemtos que esten dentro de otro se mueven a la derecha con 4 espacios o con un tab de distancia por lo general, de esta forma
-<code>
+```
 <tag>
     <tag>...</tag>
 </tag>
-<code>
+```
 
 aun asi depende de como te guste verlo.
 Usemos el mismo ejemplo anterior pero indentado
