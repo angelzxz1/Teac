@@ -101,4 +101,29 @@ Okay, ahora vamos al core, el `<body>`. Aqui dentro se vera todo el contenido de
 
 Aqui hay muchas etiquetas por usar, para que se familiaricen con ellas les hare una lista de las mas comunes.
 
+## Headings
 
+Estos van enumerados del 1 al 6 de esta forma `<h1>, <h2>, <h3>, <h4>, <h5>, <h6>`
+
+Esto sirven para dar titulos o encabezados para algo
+Abre headings.html en el navegador para que tengas una idea de como funcionan
+
+## Parragraph
+
+Esta es una etiqueta que sirve para indicar que su contenido es un parrafo.
+`<p>`
+
+## Link
+
+Esta, como lo indica se usa para indicar un link hacia otra pagia u otra secction de la pagina
+esta tiene un atributo llamado href que es el link a donde redireccionara el link
+`<a href='' >`
+
+## Image
+
+Sirve para mostrar imagenes, este tiene 4 atributos:
+    -src: el cual es el link o direccion donde se ecnuentra la imagen guardada, tanto local como en internet
+    -alt: es un nombre alternativo para la imagen, este se vera cuando la imagen no sea encontrada
+    -width: es el ancho de la imagen
+    -height: es el alto de la imagen 
+`<img src="" alt="" width="" height="">`
