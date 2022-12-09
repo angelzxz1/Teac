@@ -86,7 +86,8 @@ Vamos a sample_2.html, veras que tiene dentro de head otras etiquetas las cuales
 `<meta>` es una etiqeuta que sirve para dar informacion al navegador de como comportarse
 y `<title>`, como su nombre indica, le da el titulo a la pagina
 
-Como puedes ver la etiqueta `<meta>` tiene ciertos parametros como 
+Como puedes ver la etiqueta `<meta>` tiene ciertos parametros como:
+
 `charset`: Especifica la codificación de caracteres para el documento HTML
 
 `http-equiv`: Proporciona un encabezado HTTP para la información/valor del atributo de contenido
