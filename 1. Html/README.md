@@ -16,18 +16,20 @@ Cada etiqueta tiene un nombre que lo identifica, El nombre de la etiqueta va den
 A estas se les llaman etiqueta de apertura y de cierre respectivamente, y entre ambas va el contenido de la etiqueta.
 
 Estas a su vez pueden tener otras etiquetas dentro siguiendo este patron (Para practicidad usaremos la palabra tag para nombrar cualquier etiqueta en los ejemplos de aqui en adelante):
-<tag><tag>...</tag></tag>
+`<tag><tag>...</tag></tag>`
 
 Ademas, no necesariamente tienen que estar uno dentro de otro, pueden estar 2 dentro de un mismo elemento pero uno al lado del otro:
-<tag><tag>...</tag><tag>...</tag></tag>
+`<tag><tag>...</tag><tag>...</tag></tag>`
 
 En este ejemplo se puede ver que esta dentro de que, pero cuando hay muchos elementos es un poco dificil de saber cual esta dentro de cual, como aqui:
-<tag><tag>...</tag><tag><tag><tag>...</tag><tag>...</tag></tag></tag></tag>
+`<tag><tag>...</tag><tag><tag><tag>...</tag><tag>...</tag></tag></tag></tag>`
 
 Para poder tener una mejor representacion visual se indentan las etiquetas, indentar significa que los elemtos que esten dentro de otro se mueven a la derecha con 4 espacios o con un tab de distancia por lo general, de esta forma
+<code>
 <tag>
     <tag>...</tag>
 </tag>
+<code>
 
 aun asi depende de como te guste verlo.
 Usemos el mismo ejemplo anterior pero indentado
