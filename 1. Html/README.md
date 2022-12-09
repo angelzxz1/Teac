@@ -9,7 +9,7 @@ Basicamente son etiquetas que el navegador interpreta para mostrar la informacio
 
 La estructura basica seria la siguiente
 
-<Etiqueta> contenido </Etiqueta>
+`<Etiqueta> contenido </Etiqueta>`
 
 Cada etiqueta tiene un nombre que lo identifica, El nombre de la etiqueta va dentro de los <> e indica que empieza la etiqueta, mientras que para indicar que se cierra se pode dentro del </>
 
