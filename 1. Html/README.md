@@ -33,6 +33,7 @@ Para poder tener una mejor representacion visual se indentan las etiquetas, inde
 
 aun asi depende de como te guste verlo.
 Usemos el mismo ejemplo anterior pero indentado
+
 ```
 <tag>
     <tag>...</tag>
@@ -42,7 +43,8 @@ Usemos el mismo ejemplo anterior pero indentado
             <tag>...</tag>
         </tag>
     </tag>
-</tag>```
+</tag>
+```
 
 De esta manera con solo ver se puede saber cual elemento esta dentro de cual y si se dan cuenta, cuando un elemento anida a otro, la etiqueta de cierre se encuentra directamente debajo de la de apertura, de esta forma es mas facil identificar si hace falta una etiqueta de cierre (Pasa mas de lo que deberia)
 
