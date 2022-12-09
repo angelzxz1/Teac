@@ -9,20 +9,20 @@ Basicamente son etiquetas que el navegador interpreta para mostrar la informacio
 
 La estructura basica seria la siguiente
 
-`<Etiqueta> contenido </Etiqueta>`
+```<Etiqueta> contenido </Etiqueta>```
 
 Cada etiqueta tiene un nombre que lo identifica, El nombre de la etiqueta va dentro de los <> e indica que empieza la etiqueta, mientras que para indicar que se cierra se pode dentro del </>
 
 A estas se les llaman etiqueta de apertura y de cierre respectivamente, y entre ambas va el contenido de la etiqueta.
 
 Estas a su vez pueden tener otras etiquetas dentro siguiendo este patron (Para practicidad usaremos la palabra tag para nombrar cualquier etiqueta en los ejemplos de aqui en adelante):
-`<tag><tag>...</tag></tag>`
+```<tag><tag>...</tag></tag>```
 
 Ademas, no necesariamente tienen que estar uno dentro de otro, pueden estar 2 dentro de un mismo elemento pero uno al lado del otro:
-`<tag><tag>...</tag><tag>...</tag></tag>`
+```<tag><tag>...</tag><tag>...</tag></tag>```
 
 En este ejemplo se puede ver que esta dentro de que, pero cuando hay muchos elementos es un poco dificil de saber cual esta dentro de cual, como aqui:
-`<tag><tag>...</tag><tag><tag><tag>...</tag><tag>...</tag></tag></tag></tag>`
+```<tag><tag>...</tag><tag><tag><tag>...</tag><tag>...</tag></tag></tag></tag>```
 
 Para poder tener una mejor representacion visual se indentan las etiquetas, indentar significa que los elemtos que esten dentro de otro se mueven a la derecha con 4 espacios o con un tab de distancia por lo general, de esta forma
 ```
@@ -33,7 +33,7 @@ Para poder tener una mejor representacion visual se indentan las etiquetas, inde
 
 aun asi depende de como te guste verlo.
 Usemos el mismo ejemplo anterior pero indentado
-
+```
 <tag>
     <tag>...</tag>
     <tag>
@@ -42,7 +42,7 @@ Usemos el mismo ejemplo anterior pero indentado
             <tag>...</tag>
         </tag>
     </tag>
-</tag>
+</tag>```
 
 De esta manera con solo ver se puede saber cual elemento esta dentro de cual y si se dan cuenta, cuando un elemento anida a otro, la etiqueta de cierre se encuentra directamente debajo de la de apertura, de esta forma es mas facil identificar si hace falta una etiqueta de cierre (Pasa mas de lo que deberia)
 
@@ -58,21 +58,21 @@ Principalmente se inicia con la etiqueta <!DOCTYPE html>, la cual en si no es un
 
 Toda pagina web tiene como etiqueta exterior la etiqueta html
 
-<html></html>
+```<html>```
 
 dentro de ella definimos nuestra pagina. una pagina tiene 2 componentes, un header y un body, los cuales son
-<head></head> y <body></body>
+```<head>``` y ```<body>```
 
 ya con estos 4 elementos podremos estructurar nuestra pagina, quedando de esta manera
-
+```
 <!DOCTYPE html>
 <html>
     <head></head>
     <body></body>
 </html>
-
+```
 Abre sample_1.html en este mismo documento, veras que tiene la misma estructura pero en el navegador no se ve nada, luego llenaremos esto
 
-Vamos a sample_2.html, veras que tiene dentro de head otras etiquetas las cuales son <meta> y <title>
-<meta> es una etiqeuta que sirve para dar informacion al navegador de como comportarse
-y <title>, como su nombre indica, le da el titulo a la pagina
+Vamos a sample_2.html, veras que tiene dentro de head otras etiquetas las cuales son ```<meta>``` y ```<title>```
+```<meta>``` es una etiqeuta que sirve para dar informacion al navegador de como comportarse
+y ```<title>```, como su nombre indica, le da el titulo a la pagina
