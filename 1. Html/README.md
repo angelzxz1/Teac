@@ -54,6 +54,13 @@ Cada etqueta tiene propiedades que se pueden asignar de la siguiente forma
 
 Cada etiqueta tiene propiedades unicas que veremos mas adelante.
 
+Dentro de cualquier documento html, css, javascript o lenguaje de programacion nosotros podemos agregar comentarios
+los comentarion son secciones dentro del documento que seran saltados por el navegador y no procesara.
+Esto es para que cuando se trabaje en un grupo se sepa que hace que cosa o incluso cuando trabajs solo en caso de que implementes algo
+sepas que es y no pierdas el hilo
+
+Para hacer esto debemos escribir lo siguiente `<!-- Aqui va tu comentario -->`
+
 Hasta ahora solo hemos visto como funcionan las etiquetas, pero como se hace una pagina web?
 Como ya se habia mencionado antes las etiquetas son las que le dan sentido y ordern al sitio, por ende cada etiqueta, es unica y tiene un proposito, para poder entender esto veamos la estructura de una pagina web
 Principalmente se inicia con la etiqueta <!DOCTYPE html>, la cual en si no es una etiqueta, es mas un indicador del tipo de archivo que el navegador  va a recibir
@@ -78,3 +85,20 @@ Abre sample_1.html en este mismo documento, veras que tiene la misma estructura 
 Vamos a sample_2.html, veras que tiene dentro de head otras etiquetas las cuales son `<meta>` y `<title>`
 `<meta>` es una etiqeuta que sirve para dar informacion al navegador de como comportarse
 y `<title>`, como su nombre indica, le da el titulo a la pagina
+
+Como puedes ver la etiqueta `<meta>` tiene ciertos parametros como 
+`charset`: Especifica la codificación de caracteres para el documento HTML
+
+`http-equiv`: Proporciona un encabezado HTTP para la información/valor del atributo de contenido
+
+`content`: Especifica el valor asociado con el http-equiv o atributo de nombre
+
+`name`: Especifica un nombre para los metadatos.
+
+Modifiquemos sample_2 y pon el titulo que quieras, por ahora no modificaremos el meta y una vez cambiado veremos que nuestro titulo se ve en la parte de arriba del navegador en el tab de la pagina.
+
+Okay, ahora vamos al core, el `<body>`. Aqui dentro se vera todo el contenido de nuestra pagina, mientras que lo que va dentro de `<head>` no se vera.
+
+Aqui hay muchas etiquetas por usar, para que se familiaricen con ellas les hare una lista de las mas comunes.
+
+
